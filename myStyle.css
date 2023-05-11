@@ -36,10 +36,14 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-    .main{
+    .main {
         padding: 11.5%;
     }
     .box {
         margin: 12% 6.5%;
+    }
+    .img {
+        max-width: fit-content;
+        height: auto;
     }
 }
