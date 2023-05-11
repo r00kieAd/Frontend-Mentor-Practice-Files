@@ -43,7 +43,7 @@ p {
         margin: 12% 6.5%;
     }
     .img {
-        width: 100px;
-        height: 100px;
+        max-width: 50%;
+        height: auto;
     }
 }
