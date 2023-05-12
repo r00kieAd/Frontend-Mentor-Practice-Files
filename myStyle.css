@@ -2,48 +2,38 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
+div.main {
+    margin-top: 10%;
+}
 
 .box {
-    background-color: white;
+    background-color: aliceblue;
     border: 1px solid white;
-    border-radius: 1rem;
-    text-align: center;
-    margin: 12% 41.6%;
+    border-radius: 16px;
+    margin: 0 10%
 }
 
 img {
     width: 300px;
     height: 300px;
+    border-radius: 16px;
 }
 
-h2 {
+div {
+    padding-top: 7px;
+}
+
+h5{
+    padding: 1rem 3rem;
     font-weight: 800;
-}
-
-p {
-    font-weight: 100;
-}
-
-.text {
-    padding: 0 1rem;
     font-family: 'Pacifico', cursive;
     font-family: 'Ubuntu', sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-    .main {
-        padding: 11.5%;
-    }
-    
-    .img{
-        max-width: 100%;
-        height: auto;
-    }
-    img{
-        width: 100px;
-        height: 100px;
-    }
-    .box {
-        margin: 12% none;
-    }
+p {
+    padding: 0 3rem;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
 }
