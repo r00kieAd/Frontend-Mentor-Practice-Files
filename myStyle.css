@@ -19,8 +19,8 @@ img {
     border-radius: 16px;
 }
 
-div {
-    padding-top: 7px;
+.img-box {
+    padding: 16px;
 }
 
 h5{
